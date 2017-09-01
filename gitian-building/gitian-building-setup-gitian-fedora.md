@@ -25,14 +25,8 @@ Type/paste the following in the terminal:
 sudo dnf install git python ruby apt-cacher-ng qemu qemu-kvm dpkg debootstrap python-cheetah gnupg tar rsync wget curl
 ```
 
-At the end Debian is rebooted to make sure that the changes take effect. The steps in this
-section only need to be performed once.
-
 Installing Gitian
 ------------------
-
-Re-login as the user `gitian_user` that was created during installation.
-The rest of the steps in this guide will be performed as that user.
 
 There is no `python-vm-builder` package in Fedora, so we need to install it from source ourselves,
 
